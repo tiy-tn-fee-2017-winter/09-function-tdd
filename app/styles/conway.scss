@@ -1,0 +1,35 @@
+
+.c-table {
+  width: 100%;
+  max-width: 30rem;
+  margin: auto;
+}
+
+.c-btn-bar {
+  display: flex;
+  margin: 1rem 0;
+
+  * + * {
+    margin-left: 1rem;
+  }
+}
+
+.c-btn {
+  cursor: pointer;
+  outline: none;
+  display: block;
+  width: 100%;
+  border-radius: 0.4rem;
+  background: #095b90;
+  color: #fff;
+  border: 0;
+
+  &--grid {
+    padding-top: 50%;
+    background: black;
+  }
+
+  &--active {
+    background: #ffe70e;
+  }
+}
