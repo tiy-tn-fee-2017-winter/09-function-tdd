@@ -1,6 +1,8 @@
 import 'whatwg-fetch';
+import Vue from 'vue';
 import BlackjackBot from './blackjack/blackjack-bot.vue';
 
-new BlackjackBot({
+new Vue({
+  ...BlackjackBot,
   el: '.blackjack',
 });
