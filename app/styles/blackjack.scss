@@ -1,0 +1,40 @@
+.blackjack-bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  padding: 2rem;
+
+  background: #850303;
+  color: #e3e3e3;
+
+  font-family: cursive;
+
+  &__cards {
+    display: flex;
+  }
+}
+
+.blackjack-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem 1rem;
+
+  &__label {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  &__input {
+    padding: 0.2rem;
+    border: 0;
+    border-radius: 0.6rem;
+
+    font-family: inherit;
+    font-size: 1.2rem;
+    text-align: center;
+    outline: none;
+  }
+}
